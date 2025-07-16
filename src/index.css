@@ -8,33 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Panda-themed soft pastel colors */
+    --background: 120 20% 98%;
+    --foreground: 210 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 15% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Soft bamboo green as primary */
+    --primary: 120 35% 45%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Light pastel secondary */
+    --secondary: 200 40% 92%;
+    --secondary-foreground: 210 15% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted soft grey */
+    --muted: 210 20% 95%;
+    --muted-foreground: 210 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Gentle accent color */
+    --accent: 180 30% 88%;
+    --accent-foreground: 210 15% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Soft destructive for warnings */
+    --destructive: 0 65% 70%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Light borders */
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 120 35% 45%;
+
+    /* Custom panda theme colors */
+    --panda-success: 120 50% 50%;
+    --panda-warning: 35 90% 65%;
+    --panda-love: 340 80% 75%;
+    
+    /* Gradients */
+    --gradient-soft: linear-gradient(135deg, hsl(120, 35%, 95%), hsl(180, 30%, 95%));
+    --gradient-success: linear-gradient(135deg, hsl(120, 50%, 85%), hsl(120, 40%, 90%));
+    --gradient-hero: linear-gradient(135deg, hsl(120, 25%, 95%), hsl(200, 30%, 95%));
 
     --radius: 0.5rem;
 
@@ -56,33 +73,42 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark panda theme - gentle and soothing */
+    --background: 210 25% 8%;
+    --foreground: 210 20% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 210 25% 10%;
+    --card-foreground: 210 20% 92%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 210 25% 10%;
+    --popover-foreground: 210 20% 92%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 120 30% 60%;
+    --primary-foreground: 210 25% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 25% 15%;
+    --secondary-foreground: 210 20% 92%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 210 25% 12%;
+    --muted-foreground: 210 15% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 180 25% 20%;
+    --accent-foreground: 210 20% 92%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 60% 65%;
+    --destructive-foreground: 210 25% 8%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 210 25% 18%;
+    --input: 210 25% 15%;
+    --ring: 120 30% 60%;
+
+    --panda-success: 120 45% 55%;
+    --panda-warning: 35 80% 60%;
+    --panda-love: 340 70% 70%;
+
+    --gradient-soft: linear-gradient(135deg, hsl(210, 25%, 12%), hsl(180, 25%, 15%));
+    --gradient-success: linear-gradient(135deg, hsl(120, 30%, 20%), hsl(120, 25%, 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(210, 25%, 10%), hsl(200, 25%, 12%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
